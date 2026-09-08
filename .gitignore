@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artefak model (diregenerasi oleh src/train.py)
+models/*.pkl
+models/*.json
+models/*.csv
+
+# Data mentah dapat diunduh ulang (opsional, aktifkan jika perlu versi di repo)
+# data/heart.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

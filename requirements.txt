@@ -1,0 +1,27 @@
+# ===== Library Inti untuk Proyek Prediksi Penyakit Jantung =====
+
+# Manipulasi Data
+pandas==2.2.3
+numpy==2.2.5
+
+# Visualisasi
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Machine Learning (Scikit-Learn sebagai framework utama)
+scikit-learn==1.6.1
+
+# Gradient Boosting (XGBoost)
+xgboost==3.4.1
+
+# Jupyter untuk eksplorasi (notebooks/)
+jupyter==1.1.1
+
+# Format tabel markdown (output train.py)
+tabulate==0.9.0
+
+# Aplikasi web (Streamlit) — app.py
+streamlit==1.46.1
+
+# PyTorch (opsional - bonus deep learning)
+# torch==2.5.1
